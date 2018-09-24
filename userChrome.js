@@ -61,7 +61,7 @@
     }\
     :not(select):not(hbox) > scrollbar:hover {\
         background-color: rgba(90, 90, 90, 0.15);\
-		padding: 0;\
+	padding: 0;\
     }\
     :not(select):not(hbox) > scrollbar:hover thumb {\
         background-color: rgba(100, 100, 100, 0.5)!important;\
