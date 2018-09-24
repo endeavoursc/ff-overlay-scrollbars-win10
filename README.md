@@ -1,10 +1,10 @@
 # Firefox Quantum (57+) overlay scrollbars Win10-style      
 
-![Screenshot Overlay Scrollbar](https://raw.githubusercontent.com/endeavoursc/firefox-overlay-scrollbars-win10/master/screenshots/ff-osb.png)  
+![Screenshot Overlay Scrollbar](https://raw.githubusercontent.com/endeavoursc/firefox-overlay-scrollbars-win10/master/screenshots/screenshot.png)  
 Overlay Scrollbar
 
 
-![Screenshot Overlay Scrollbar On Mouse Hover](https://raw.githubusercontent.com/endeavoursc/firefox-overlay-scrollbars-win10/master/screenshots/ff-osb-hover.png)  
+![Screenshot Overlay Scrollbar On Mouse Hover](https://raw.githubusercontent.com/endeavoursc/firefox-overlay-scrollbars-win10/master/screenshots/screenshot-hover.png)  
 Overlay Scrollbar on mouse hover
 
 
