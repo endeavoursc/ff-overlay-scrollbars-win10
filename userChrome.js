@@ -44,7 +44,7 @@
         width: 16px!important;\
     }\
     :not(select):not(hbox) > scrollbar[orient = "vertical"] thumb {\
-        border-left: 3px solid rgba(80, 80, 80, 0.50);\
+        border-left: 3px solid rgba(80, 80, 80, 0.60);\
         min-height: 16px;\
         transform: translate(9px, 0px);\
         transition: transform 0.1s linear;\
@@ -54,7 +54,7 @@
         height: 16px!important;\
     }\
     :not(select):not(hbox) > scrollbar[orient = "horizontal"] thumb {\
-        border-top: 3px solid rgba(80, 80, 80, 0.75);\
+        border-top: 3px solid rgba(80, 80, 80, 0.60);\
         min-width: 16px;\
         transform: translate(0px, 9px);\
         transition: transform 0.1s linear;\
