@@ -33,12 +33,17 @@
         pointer-events: auto;\
         width: auto!important;\
     }\
+    @-moz-document domain("mail.google.com"), domain("docs.google.com"), domain("calendar.google.com") {\
+      :not(select):not(hbox) > scrollbar {\
+        z-index: 1!important;\
+      }\
+    }\
     :not(select):not(hbox) > scrollbar[orient = "vertical"] {\
         -moz-margin-start: -16px;\
         width: 16px!important;\
     }\
     :not(select):not(hbox) > scrollbar[orient = "vertical"] thumb {\
-        border-left: 3px solid rgba(80, 80, 80, 0.75);\
+        border-left: 3px solid rgba(80, 80, 80, 0.50);\
         min-height: 16px;\
         transform: translate(9px, 0px);\
         transition: transform 0.1s linear;\
