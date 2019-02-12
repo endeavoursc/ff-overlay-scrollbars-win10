@@ -39,7 +39,7 @@
         width: 16px!important;\
     }\
     :not(select):not(hbox) > scrollbar[orient = "vertical"] thumb {\
-        border-left: 3px solid rgba(80, 80, 80, 0.60);\
+        border-left: 3px solid rgba(80, 80, 80, 0.65);\
         min-height: 16px;\
         transform: translate(9px, 0px);\
         transition: transform 0.1s linear;\
@@ -49,7 +49,7 @@
         height: 16px!important;\
     }\
     :not(select):not(hbox) > scrollbar[orient = "horizontal"] thumb {\
-        border-top: 3px solid rgba(80, 80, 80, 0.60);\
+        border-top: 3px solid rgba(80, 80, 80, 0.65);\
         min-width: 16px;\
         transform: translate(0px, 9px);\
         transition: transform 0.1s linear;\
@@ -65,7 +65,7 @@
 	padding: 0;\
     }\
     :not(select):not(hbox) > scrollbar:hover thumb {\
-        background-color: rgba(100, 100, 100, 0.50)!important;\
+        background-color: rgba(100, 100, 100, 0.8)!important;\
         border-left: 0px;\
         border-top: 0px;\
         transform: translate(0px, 0px);\
