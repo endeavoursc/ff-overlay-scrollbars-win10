@@ -26,3 +26,7 @@ This mod does not involve adding any extensions, and instead works only by addin
 Place the three `userChrome.*` files in a `/chrome` directory [inside your Firefox profile](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data). If you already have a `userChrome.css` file, you may instead add the contents of the file here anywhere in your existing file.
 
 To uninstall, remove the three files. If you have other content in the `userChrome.css` file you can remove just the part that you added during installation.
+
+## Updating .js file
+
+If you are updating or changing the [userChrome.js](https://github.com/endeavoursc/firefox-overlay-scrollbars-win10/blob/master/userChrome.js) file you need to clear the Firefox cache by deleting your profile inside *%UserProfile%\AppData\Local\Mozilla\Firefox\Profiles* (Windows)
