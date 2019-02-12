@@ -30,3 +30,4 @@ To uninstall, remove the three files. If you have other content in the `userChro
 ## Updating .js file
 
 If you are updating or changing the [userChrome.js](https://github.com/endeavoursc/firefox-overlay-scrollbars-win10/blob/master/userChrome.js) file you need to clear the Firefox cache by deleting your profile inside *%UserProfile%\AppData\Local\Mozilla\Firefox\Profiles* (Windows)
+This won't erase your settings, active sessions, etc.
