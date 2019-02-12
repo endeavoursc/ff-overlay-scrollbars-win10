@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name           userChrome.js
 // @namespace      castelo@live.com
-// @version        0.0.2
+// @version        0.0.3
 // @note           Thanks to ardiman(https://github.com/Endor8/userChrome.js/blob/master/floatingscrollbar/FloatingScrollbar.uc.js)
 // @note           Thanks to Griever(https://github.com/Griever/userChromeJS/blob/master/SmartScrollbar.uc.js) and Paul Rouget(https://gist.github.com/4003205)
-// @note...........0.0.2 Increased width of scrollbar from 2px to 3px 
+// @note...........0.0.3 Added specific z-index behavior for some sites
+// @note           0.0.2 Increased width of scrollbar from 2px to 3px 
 // @note           0.0.1 Initial version
 // ==/UserScript==
 
@@ -69,7 +70,7 @@
 	padding: 0;\
     }\
     :not(select):not(hbox) > scrollbar:hover thumb {\
-        background-color: rgba(100, 100, 100, 0.5)!important;\
+        background-color: rgba(100, 100, 100, 0.50)!important;\
         border-left: 0px;\
         border-top: 0px;\
         transform: translate(0px, 0px);\
