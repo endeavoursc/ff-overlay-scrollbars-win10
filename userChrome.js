@@ -34,11 +34,6 @@
         pointer-events: auto;\
         width: auto!important;\
     }\
-    @-moz-document domain("mail.google.com"), domain("docs.google.com"), domain("calendar.google.com") {\
-      :not(select):not(hbox) > scrollbar {\
-        z-index: 1!important;\
-      }\
-    }\
     :not(select):not(hbox) > scrollbar[orient = "vertical"] {\
         -moz-margin-start: -16px;\
         width: 16px!important;\
@@ -84,6 +79,11 @@
     }\
     :not(select):not(hbox) > scrollbar scrollbarbutton, :not(select):not(hbox) > scrollbar gripper {\
         display: none;\
+    }\
+    @-moz-document domain("mail.google.com"), domain("docs.google.com"), domain("calendar.google.com") {\
+      :not(select):not(hbox) > scrollbar {\
+        z-index: 1!important;\
+      }\
     }';
 
     var sss = Cc['@mozilla.org/content/style-sheet-service;1'].getService(Ci.nsIStyleSheetService);
