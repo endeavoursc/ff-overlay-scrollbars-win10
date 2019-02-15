@@ -80,7 +80,7 @@
     :not(select):not(hbox) > scrollbar scrollbarbutton, :not(select):not(hbox) > scrollbar gripper {\
         display: none;\
     }\
-    @-moz-document domain("mail.google.com"), domain("docs.google.com"), domain("calendar.google.com") {\
+    @-moz-document url-prefix("https://mail.google.com/"), url-prefix("https://docs.google.com/"), url-prefix("https://calendar.google.com/") {\
       :not(select):not(hbox) > scrollbar {\
         z-index: 1!important;\
       }\
